@@ -1,0 +1,113 @@
+
+#searchBar {
+
+    padding: 15px 0;
+    width: 100%;
+    /*height: 80px;*/
+    background: #999999;
+
+}
+
+#searchForm {
+
+    margin-left: 50px;
+    /*width: 300px;*/
+    height: 50px;
+    /*border-bottom: 2px white solid;*/
+    /*background: #666666;*/
+
+}
+
+#searchInput {
+
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px white solid;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    background: none;
+
+}
+
+#searchSelect {
+
+    float: left;
+    box-sizing: border-box;
+    height: 50px;
+    border: none;
+    /*-webkit-border-radius: 50%;*/
+    border-bottom: 2px white solid;
+    -moz-appearance: none;
+    -webkit-border-radius: 0;
+    font-size: 14px;
+    color: white;
+    background: none;
+    outline: none;
+    /*border: 0;*/
+    /*outline: 1px solid rgb(204,204,204);*/
+
+}
+
+#searchSubmit {
+
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: none;;
+    border-bottom: 2px white solid;
+    /*background-color: none;*/
+    background: url(../img/search_64px_1187938_easyicon.net.png) no-repeat center;
+    background-size: 24px;
+
+}
+#searchSubmit:hover {  border-bottom: 2px solid #1565C0;  }
+#searchSubmit:active {  border-bottom: 2px solid #1565C0;  background: #1565C0;  }
+
+#searchMessage {
+
+    margin-top: 10px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333333;
+
+}
+
+#searchResult {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    /*padding: 10px 0;*/
+    margin: 30px auto 0;
+    width: 500px;
+    background: #dedede;
+
+}
+
+#searchResult tr {
+
+    margin: 0;
+    /*padding: 10px 0;*/
+    text-align: center;
+    /*background: #999;*/
+
+}
+
+#searchResult tr th {
+
+    padding-top: 10px;
+
+}
+
+#searchResult tr td {
+
+    padding: 10px 0;
+
+}

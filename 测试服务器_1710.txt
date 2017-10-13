@@ -1,0 +1,10 @@
+数据库连接地址： cnerstudio.xyz
+数据库名称： cnercc
+数据库用户名： cnercc
+数据库密码： fee0bd
+
+FTP登录主机地址： cnerstudio.xyz
+FTP登录用户名： cc
+FTP登录密码： e6f653a2
+
+测试网址:http://cnerstudio.xyz/software/cner/cc/

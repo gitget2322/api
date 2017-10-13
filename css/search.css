@@ -1,0 +1,164 @@
+
+body {
+
+    /*background: #eeeeee;*/
+    background: rgba(141, 113, 96, 0.4);
+
+
+}
+#menuBar{margin-top: 70px;
+    /*height: 300px;*/
+    text-align: center;
+    align:center;
+    style:font-size:24px; 
+  }
+#usersTable{margin-top: 100px}
+#searchForm {
+    margin-top: 200px;
+    /*height: 300px;*/
+    text-align: center;
+    /*background: #999;*/
+
+}
+
+#formContent {
+
+    margin: 0 auto;
+    width: 371px;
+    height: 38px;
+
+}
+
+#searchKey {
+
+    display: block;
+    float:left;
+    padding: 10px;
+    width: 250px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #333;
+    border: none;
+    /*border-bottom: 1px solid #666;*/
+    border-radius: 5px;
+    outline: none;
+
+}
+#searchSubmit {
+
+    display: block;
+    float:left;
+    margin-left: 5px;
+    padding: 0 30px;
+    width: 96px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #2196F3;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+    background: #2196F3;
+
+}
+
+#searchSubmit:hover {  border-bottom: 2px solid #1565C0;  }
+#searchSubmit:active {  border-bottom: 2px solid #1565C0;  background: #1565C0;  }
+
+#searchMessage {
+
+    margin-top: 10px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333333;
+
+}
+
+#searchResult {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    /*padding: 10px 0;*/
+    margin: 30px auto 0;
+    width: 500px;
+    background: #dedede;
+
+}
+
+#searchResult tr {
+
+    margin: 0;
+    /*padding: 10px 0;*/
+    text-align: center;
+    /*background: #999;*/
+
+}
+
+#searchResult tr th {
+
+    padding-top: 10px;
+
+}
+
+#searchResult tr td {
+
+    padding: 10px 0;
+
+}
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+   -webkit-appearance: none; /*for chrome*/
+}
+
+.mask{position: absolute;
+top: 0px;
+left: 0px;
+filter: alpha(opacity=50);
+-moz-opacity:0.5;
+opacity:0.5;
+background-color: #ffffff;
+z-index: 2;
+display: none;}
+ /*  弹出基本资料div */
+div.sample_popup {height:auto; border: 1px solid #327eca; width: 300px;  }
+div.menu_form_header{
+ background: url('/image/1.jpg') repeat-x;
+}
+div.sample_popup div.menu_form_header
+{
+  border-bottom: 0px;
+  cursor: default;
+   width:100%;
+  height:      22px;
+  line-height: 22px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: "Times New Roman", Serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #206040;
+}
+div.menu_form_body
+{
+  width:100%;
+  height:150px;
+  font-size:12px;
+  background-color:#f1f8fe;
+}
+div.sample_popup input.menu_form_exit
+{
+  float: right;
+  margin: 4px 5px 0px 0px;
+  cursor: pointer;
+}
+
